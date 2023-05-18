@@ -48,10 +48,15 @@ const { title } = Astro.props.frontmatter || Astro.props;
             #da62c4 30%,
             white 60%
         );
+
+        /* --font-family-regular: "Lora-Regular", system-ui, sans-serif; */
+        /* --font-family-italic: "Lora-Italic", system-ui, sans-serif; */
+        --font-family-regular: "Literata-Regular", system-ui, sans-serif;
+        --font-family-italic: "Literata-Italic", system-ui, sans-serif;
     }
+
     html {
-        /* font-family: system-ui, sans-serif; */
-        font-family: "Lora-Regular", system-ui, sans-serif;
+        font-family: var(--font-family-regular);
         background-color: #f6f6f6;
 
         font-size: 16px;
@@ -71,7 +76,7 @@ const { title } = Astro.props.frontmatter || Astro.props;
     }
 
     article {
-        font-family: "Lora-Regular", system-ui, sans-serif;
+        font-family: var(--font-family-regular);
         font-size: 16px;
 
         /* min-width: 600px; */
@@ -88,7 +93,7 @@ const { title } = Astro.props.frontmatter || Astro.props;
     }
 
     blockquote {
-        font-family: "Lora-Italic", system-ui, sans-serif;
+        font-family: var(--font-family-italic);
         font-style: italic;
 
         /* font-size: 0.9rem; */
@@ -108,7 +113,7 @@ const { title } = Astro.props.frontmatter || Astro.props;
     }
 
     em {
-        font-family: "Lora-Italic", system-ui, sans-serif;
+        font-family: var(--font-family-italic);
         font-style: italic;
     }
 
