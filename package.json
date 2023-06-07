@@ -12,7 +12,7 @@
     },
     "dependencies": {
         "@mavrin/remark-typograf": "^2.2.0",
-        "astro": "^2.4.5",
+        "astro": "^2.6.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "remark-flexible-markers": "^1.0.2",
